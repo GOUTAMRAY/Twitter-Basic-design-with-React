@@ -1,0 +1,144 @@
+
+.twitter-registation{
+             padding: 100px 0px;
+
+  .twitter-registation-container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+    .twitter-image{
+          
+      img{
+
+       width: 300px;
+      }
+    }
+    .twitter-content{
+          
+      .twiter-header{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        h1{
+          font-size: 64px;
+          font-weight: 700;
+          color: var(--tw-primary);
+        }
+        h3{
+          font-size: 31px;
+          font-weight: 700;
+          color: var(--tw-primary);
+          line-height: 36px;
+          margin-bottom: 40px;
+        }
+
+        
+      }
+      .twiter-body{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 300px;
+             
+        button{
+             padding: 6px 0px;
+             border-radius: 25px;
+             font-size: 14px;
+             border: var(--tw-border);
+      
+             color: #3c4043;
+             background-color: #fff;
+        }
+        .google-btn{
+          font-weight: 500;
+
+          a{
+            font-size: 19px;
+            position: relative;
+            top: 4px;
+      
+          }
+        }
+        .apple-btn{
+          font-weight: 700;
+
+          &:hover{
+            background-color: #e6e6e6;
+          }
+
+          a{
+            font-size: 18px;
+            position: relative;
+            top: 4px;
+      
+          }
+        }
+        .or-btn-class{
+             text-align: center;
+             font-weight: 400;
+        }
+        .account-btn{
+           font-size: 15px;
+           font-weight: 600;
+           color: #fff;
+           background-color: var(--tw-button);
+           padding: 6px 0px;
+           transition: .4s;
+
+           &:hover{
+            background-color: #1a6cd8;
+           }
+        }
+        .text-content-ff{
+            font-size: 11px;
+            font-weight: 400;
+            color: #536471;
+            line-height: 13px;
+
+            a{
+              color: var(--tw-button);
+
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+        }
+        .already-acc{
+             font-size: 17px;
+             font-weight: 600;
+             color: #0F1419;
+             padding-top: 50px;
+        }
+        .sign-btn{
+            color: var(--tw-button);
+            transition: .5s;
+
+            &:hover{
+              background-color : #e6e6e6;
+            }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

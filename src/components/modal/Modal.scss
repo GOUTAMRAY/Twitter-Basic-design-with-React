@@ -1,0 +1,178 @@
+
+// modal css 
+.modal-box-twitter{
+       background-color: rgba(0,0,0,0.40);
+       height: 100vh;
+       width: 100vw;
+       position: fixed;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       z-index: 9;
+
+.instagram-modal{
+         width: 550px;
+         border-radius: 15px;
+         border: var(--tw-border);
+         background-color: #fff;
+
+  .modal-div{
+     width: 400px;
+     display: flex;
+     justify-content: flex-start;
+     padding: 15px;
+
+
+
+    .modal-close-btn{
+       width: 250px;
+
+      .svg-div{
+        font-size: 20px;
+         height: 35px;
+         width: 35px;
+         line-height: 35px;
+         text-align: center;
+         display: inline-block;
+         cursor: pointer;
+         padding: 5px;
+         border-radius: 50%;
+         transition: 0.3s;
+        
+        &:hover{      
+          background-color: #e6e6e6;
+
+         
+          
+        }
+      }
+    }
+    .modal-close-image{
+
+      img{
+        width: 40px;
+
+      }
+    }
+  }
+  .modal-container{
+    width: 400px;
+    margin: auto;
+
+    .all-content-box{ 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    margin: auto;
+
+    h2{
+      font-size: 31px;
+      color: #0F1419;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+     
+   button{
+     padding: 6px 0px;
+     border-radius: 25px;
+     font-size: 14px;
+     border: var(--tw-border);
+     cursor: pointer;
+     color: #3c4043;
+     background-color: #fff;
+}
+.google-btn{
+  font-weight: 500;
+
+
+  a{
+    font-size: 19px;
+    position: relative;
+    top: 4px;
+
+  }
+}
+.apple-btn{
+  font-weight: 700;
+
+
+  &:hover{
+    background-color: #e6e6e6;
+  }
+
+  a{
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+
+  }
+}
+.or-btn-class{
+     text-align: center;
+     font-weight: 400;
+}
+input{
+  padding: 10px 8px;
+  border-radius: 5px;
+  font-size: 17px;
+  border: var(--tw-border);
+}
+.account-btn{
+   font-size: 15px;
+   font-weight: 600;
+   color: #fff;
+   background-color: #0f1419;
+   padding: 6px 0px;
+   transition: .4s;
+  cursor: pointer;
+}
+
+.abcd-btn{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #536471;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    a{
+      color: #1a6cd8;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+
+}
+
+
+  }
+
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

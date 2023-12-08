@@ -1,0 +1,167 @@
+
+// popup css 
+
+.modal-box-twitter{
+  background-color: rgba(0,0,0,0.40);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+
+.instagram-modal{
+    width: 580px;
+    border-radius: 15px;
+    border: var(--tw-border);
+    background-color: #fff;
+
+.modal-div{
+width: 400px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding: 15px;
+
+
+
+.modal-close-btn{
+  width: 50px;
+
+ .svg-div{
+   font-size: 20px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 0.3s;
+   
+   &:hover{      
+     background-color: #e6e6e6;
+
+    
+     
+   }
+ }
+}
+.modal-close-image{
+
+ h3{
+  font-size: 20px;
+  font-weight: 600;
+
+ }
+}
+}
+// modal container
+.modal-container{
+width: 450px;
+margin: auto;
+
+.all-content-box{ 
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 450px;
+margin: auto;
+
+h2{
+ font-size: 31px;
+ line-height: 36px;
+ color: #0F1419;
+ font-weight: 600;
+ margin-bottom: 10px;
+}
+
+.insted-txt{
+     text-align: end;
+     font-size: 15px;
+     font-weight: 400;
+     color: #1D9BF0;
+
+     &:hover{
+      text-decoration: underline;
+     }
+}
+.date-of-birth{
+
+  h4{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #536471;
+  }
+  .selecet-box{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+
+    .box-1{   
+      select{
+        padding: 8px 6px;
+        flex: 2;
+        border: var(--tw-border);
+        width: 200px;
+      }
+    }
+    .box-2{ 
+      select{
+        padding: 8px 6px;
+        flex: 2;
+        border: var(--tw-border);
+        width: 100px;
+      }
+    }
+
+    .box-3{  
+      select{
+        padding: 8px 6px;
+        flex: 2;
+        border: var(--tw-border);
+        width: 150px;
+      }
+    }
+  }
+
+}
+.next-btn{
+  background-color: #87898c;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+   margin-top: 50px;
+   margin-bottom: 25px;
+   padding: 9px 0px;
+}
+
+
+}
+
+
+}
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
