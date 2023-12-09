@@ -124,7 +124,44 @@
 }
 
 
+// twitter-footer
 
+.twitter-footer{
+        padding: 5px 0px;
+
+  .twiter-fixed{
+      width: 1450px;
+      margin: auto;
+      text-align: center;
+
+    ul{
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     gap: 8px;
+
+
+      li{
+        font-size: 13px;
+        font-weight: 400;
+        color: #536471;
+        text-align: center;
+
+
+        &:hover{
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+      p{
+        font-size: 13px;
+        font-weight: 400;
+        color: #536471;
+        text-align: center;
+      }
+    }
+  }
+}
 
 
 

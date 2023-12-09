@@ -6,12 +6,15 @@ import "./Home.scss"
 import Modal from "../../components/modal/Modal";
 import { useState } from "react";
 import Popup from "../../components/popup/Popup";
+import PageHeader from "../../components/pageheader/PageHeader";
 
 const Home = () => {
   const [modal , setModal ] = useState(false);
   const [ popup, setPopup ] = useState(false);
   return (
     <> 
+    <PageHeader />
+
     { modal &&  <Modal hide={setModal} > 
 
     </Modal> }
@@ -22,7 +25,7 @@ const Home = () => {
      <div className="twitter-registation">
       <div className="container twitter-registation-container"> 
        <div className="twitter-image">
-         <img src="https://i.ibb.co/KhngQj8/Screenshot-1-removebg-preview-3.png" alt="" />
+         <img src="https://www.freepnglogos.com/x-twitter-png-logo-3.jpg" alt="" />
        </div>
        <div className="twitter-content">
           <div className="twiter-header">
@@ -44,12 +47,61 @@ const Home = () => {
         </div>
        </div>
      </div>
-      
+
+
+      <div className="twitter-footer">
+        <div className="twiter-fixed">
+           <ul>
+            <li> About </li>
+            <li> Download the X app </li>
+            <li> Help Center </li>
+            <li> Terms of Service </li>
+            <li> Privacy Policy </li>
+            <li> Cookie Policy </li>
+            <li> Privacy Policy </li>
+            <li> Accessibility </li>
+            <li> Ads info </li>
+            <li> Blog </li>
+            <li> Status </li>
+            <li> Careers </li>
+            <li> Brand Resources </li>
+            <li> Advertising </li>
+            <li> Marketing </li>
+            <li> X for Business </li>
+            <li> Developers </li>
+           </ul>
+        </div>
+      </div>
+      <div className="twitter-footer">
+        <div className="twiter-fixed">
+           <ul>  
+   
+            <li> Settings </li>
+            <p> © 2023 X Corp. </p>
+           </ul>
+        </div>
+      </div>
+
     </>
   )
 }
 
 export default Home;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
